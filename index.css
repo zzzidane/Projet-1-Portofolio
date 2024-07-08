@@ -1,0 +1,638 @@
+/* Section accueil */
+
+body, html {
+    margin: 0;
+    font-family: serif;
+    background-color: #1d1f27;
+    color: #fff;
+    max-width: 1000%;
+    overflow-x: hidden;
+    font-size: 14px;
+}
+
+header {
+    position: fixed;
+    background-color: #14161c;
+    padding: 20px 0;
+    width: 100vw;
+    z-index: 1800;
+}
+
+
+.accueil{
+    width: 100vw;
+    margin-top: 80px;
+    padding-top: 50px;
+}
+
+.accueil-container {
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    background-image:url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    padding: 140px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icone{
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+} 
+
+.header-content h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.accueil {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1d1f27;
+}
+
+.accueil h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.accueil p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 120px;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 10px 20px;
+    background-color: #e94560;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.youtube-icon {
+    width: 5%;
+    height: 40px;
+    margin-right: 20px;
+    color: #e94560;
+    width: 80px;
+    margin-left: 30px;
+}
+
+.presentation {
+    display: flex;
+}
+
+.accueil-content{
+    text-align: left;
+    padding-left: 60px;
+    
+}
+.header-container{
+    width: 80%;
+    margin: 0 auto;
+} */
+
+.profil img {
+    margin-left: 50px;
+    padding-right: 60px;
+    height: 400px;
+    background-image: url("images/bg.jpg");
+}
+
+/* Section A propos */
+
+.apropos {
+    background-color: #1d1f27;
+    padding: 60px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.about .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about .intro {
+    font-size: 16px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about .underline {
+    width: 50px;
+    height: 3px;
+    background-color: #e94560;
+    margin: 20px auto;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px 60px;
+}
+
+.about-content .image {
+    flex: 1;
+}
+
+.about-content .image img {
+    width: 400px;
+   
+    border-radius: 50%;
+}
+
+.about-content .text {
+    flex: 2;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.about-content .text h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-content .text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-content .contact-info p {
+    margin: 5px 0;
+    display: flex;
+    align-items:center;
+}
+
+.about-content .contact-info p strong {
+    color: #e94560;
+} 
+
+/* Section Competence */
+.collaborer {
+    background-color: #1d1f27;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.collaborer .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.expert-on {
+    color: #e94560;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.collaborer h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.btn.ambouche {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #e94560;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn.ambauche:hover {
+    background-color: #e94560;
+    color: #fff;
+}
+
+.skills {
+    flex: 1;
+    max-width: 50%;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill span {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.progress {
+    background-color: #3e3e3e;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    height: 10px;
+}
+
+.progress-bar {
+    position: absolute;
+    background-color: #e94560;
+    height: 10px;
+    border-radius: 5px;
+    text-align: right;
+    padding-right: 5px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 10px;
+}
+/* Section Curriculum vitae */
+.vitrine {
+    background-color: #1d1f27;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.vitrine .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.vitrine h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.vitrine .intro {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.underline {
+    width: 60px;
+    height: 3px;
+    background-color: #e94560;
+    margin: 0 auto 30px auto;
+}
+
+.portfolio-grille {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.apropos-text{
+    margin-left: 50px;
+}
+
+/* Section mes services */
+.services-section {
+    padding: 50px 0;
+    background-color: #1d1f27;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #bbb;
+}
+
+.section-title .line {
+    width: 60px;
+    height: 3px;
+    background-color: #e94560;
+    margin: 20px auto 0;
+}
+
+.services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-box {
+    background-color: #292b35;
+    padding: 30px;
+    border-radius: 10px;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+
+.service-box .icon {
+    font-size: 40px;
+    color: #e94560;
+    margin-bottom: 20px;
+}
+
+.service-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+/* Responsiveness */
+@media (max-width: 992px) {
+    .service-box {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .service-box {
+        width: 100%;
+    }
+}
+
+/* Section Contactez-moi */
+.contact-section {
+    background-color: #1d1f27;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-header p:first-of-type {
+    color: #ff304f;
+    margin-bottom: 10px;
+}
+
+.contact-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contact-header .description {
+    font-size: 16px;
+    color: #aaa;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.contact-card {
+    background-color: #292929;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.contact-card i {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ff304f;
+}
+
+.contact-card p {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.contact-form .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form .form-group input {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 20px;
+
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #292b33;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff304f;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ff1f3b;
+}
+
+/* La section footer */
+.footer {
+    background-color: #1d1f27;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.social-icons {
+    margin-bottom: 40px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #e94560;
+}
+
+.social-icons-1{
+    display: flex;
+}
+
+.social-icons-1 a {
+   display: block;
+   width: 40px;
+   height: 40px;
+   border: 2px solid #e94560;
+   border-radius: 50%;
+   text-align: center;
+   position: relative;
+   margin-left: 8px;
+}
+
+.social-icons-1 a img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.footer-bottom {
+    border-top: 1px solid #292b33;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: #e94560;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-bottom a:hover {
+    color: #fff;
+}
+
+.contact-info-1, .contact-info-2 {
+    text-align: left;
+    
+}
+
+.contact-info-1 strong, .contact-info-2 strong {
+    color: #e94560;
+    
+}
+
+.contact-info-2 {
+    margin-left: 40px;
+    
+}
+
+.social-icons-section{
+    margin-top: 100px;
+}
+
+.contact-me{
+    padding: 30px 40px;
+}
+
+
